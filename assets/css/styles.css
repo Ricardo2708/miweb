@@ -1,0 +1,70 @@
+/* variables */
+:root{
+     --color-text-body: #525260;
+     --color-primary: #1f1d9c;
+     --color-secondary: #9492ff;
+     --color-stats: #a8a7ff;
+     --color-banner: #1f1d9c;
+     --black: #000;
+     --white: #fff;
+     --red: #eb7560;
+     --yellow: #dbac00;
+     --fuente-principal: 'DM sans';
+}
+
+
+/* estilos generales */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 2rem;
+    font-family: var(--fuente-principal);
+    line-height: 1.5;
+    background-color: var(--white);
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-text-body);
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    width: min(95%, 120rem) !important;
+    margin: 0rem auto;
+    margin-top: 0;
+}
+/** estructura **/
+
+.layout{
+    width: 100%;
+    height: 100%;
+}
